@@ -107,16 +107,27 @@
     }
 }
 
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav-container{
     position: relative;
     z-index: 100;
-    padding-top: 100px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    padding-top: 3%;
+}
+
+#mobileMenuButton {
+    display: none;
 }
 
 nav li {
@@ -151,13 +162,9 @@ nav li {
   }
 
   .brand-info {
-    width: 90%;
-    padding-left: 7%;
+    width: 97%;
+    padding-left: 3%;
     height: 20rem;
-    @media screen and (max-width: $phablet){
-        padding-left: 0;
-        margin-top: -10%;
-    }
   }
 
   .mobile-options-container {
@@ -195,11 +202,14 @@ nav li {
 
   
   /* [ON SMALL SCREENS] */
-  @media screen and (max-width: 860px){
+  @media screen and (max-width: 900px){
     .nav-container {
-        width: 92%;
         padding-bottom: 80px; 
         z-index: 5; 
+    }
+
+    #mobileMenuButton {
+        display: inline;
     }
 
     .main-menu { display: none }
@@ -248,23 +258,22 @@ nav li {
     // }
   
     /* Toggle Show/Hide Menu */
-    #hamitems { display: none; }
-    // #hamitems-mobile { display: none; }
-    #hamnav input:checked ~ #hamitems { display: block; margin-bottom: -5rem; z-index: 20; }
+    // #hamitems { display: none; }
+    // // #hamitems-mobile { display: none; }
+    // #hamnav input:checked ~ #hamitems { display: block; margin-bottom: -5rem; z-index: 20; }
     // #hamnav input:checked ~ #hamitems-mobile { display: block; }
 
   }
 
-@media screen and (max-height: 800px) {
-    .nav-container{
-        padding-top: 50px;
-    }
+.header-container {
+    display: flex;
+    flex-direction: row;
 }
 
 /*DESKTOP MEDIUM*/
 @media screen and (max-width: 1280px){
     .nav-container{
-        padding-top: 50px;
+        padding-top: 5%;
     }
 }
 
@@ -300,29 +309,11 @@ nav li {
     text-decoration: none;
 }
 
-/*DESKTOP MEDIUM*/
-@media screen and (max-width: 1280px){
-    .logo-link{
-        left: 0
-    }
-}
-
 .nav-controls{
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding-top:40px
-}
-
-/*PHABLET*/
-@media screen and (max-width: 540px){
-    .nav-controls{
-        right: -5px;
-    }
 }
 
 .tool-tip{
@@ -374,6 +365,7 @@ nav li {
     -o-transition: opacity 0.3s ease;
     transition: opacity 0.3s ease;
     margin-left: 30px;
+    margin-right: 20%;
 }
 
 .icon-wrapper:hover{
@@ -398,9 +390,9 @@ nav li {
         display: -webkit-inline-box;
         display: -ms-inline-flexbox;
         display: inline-flex;
-        -webkit-transform: scale(0.708);
-            -ms-transform: scale(0.708);
-                transform: scale(0.708);
+        // -webkit-transform: scale(0.708);
+        //     -ms-transform: scale(0.708);
+        //         transform: scale(0.708);
         margin-left: 10px;
     }
     .icon-wrapper:hover{

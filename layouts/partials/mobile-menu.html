@@ -1,7 +1,8 @@
-<ul id="hamitems">
+<div>
+  <p id="ptest"></p>
+  <ul id="hamitems">
     {{ range .Site.Menus.mainmenu }}
     <li><a href="{{ .URL }}">{{ .Name }}</a></li>
     {{ end }}
-</ul>
-
-
+  </ul>
+</div>

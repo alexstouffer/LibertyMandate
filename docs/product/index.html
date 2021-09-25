@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="/images/favicon.svg">
     
-    <link rel="stylesheet" href="/scss/global.min.f6f56b69db0bb90e4a71c9caf58529cb51c5367b094172926a08f1866a63e33a.css">
+    <link rel="stylesheet" href="/scss/global.min.35876e9a016a6b92fedf18aae5ac6fbb31267c99162eb6c726059dfda168fedf.css">
     
     <link rel="stylesheet" href="/css/prism.css" />
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
@@ -57,10 +57,11 @@
 
     <div class="layout-styled">
 
-        <Section class="brand-info">
-  <div class="nav-container">
-    <a class="logo-link" href="/">
-      <div id="logo-desktop">
+        <div class="header-container">
+  <Section class="brand-info">
+    <div class="nav-container">
+      <a class="logo-link" href="/">
+        <div id="logo-desktop">
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="100" height="100" viewBox="100, 100, 500, 400">
         <g id="Layer_2">
             <path class="change-fill" d="M358.269,470.242c1.115,1.305,0.285,2.19-0.45,3.109C357.227,472.365,357.212,470.757,358.269,470.242z
@@ -349,10 +350,10 @@
     }
 </style>
 <h1 style="font-family: ArmyRangers3dRegular, Helvetica Neue ,Helvetica, Arial, sans-serif">Liberty Mandate</h1>
-      <span class="header-hidden">Navigate back to the homepage</span>
-    </a>
-    <div class="menu-container">
-      <nav class="header-menu"><nav class="main-menu">
+        <span class="header-hidden">Navigate back to the homepage</span>
+      </a>
+      <div class="menu-container">
+        <nav class="header-menu"><nav class="main-menu">
     <ul>
         
         <li><a href="/article/">Articles</a></li>
@@ -363,28 +364,28 @@
         
     </ul>
 </nav></nav>
-      <div class="mobile-options-container">
-        <div class="nav-controls">
-          <button id="themeColorButton" class="icon-wrapper"> 
-            <div id="sunRays" class="sun-rays"></div>
-            <div id="moonOrSun" class="moon-or-sun"></div>
-            <div id="moonMask" class="moon-mask"></div>
-          </button>
-        </div>
-        <div>
-          <nav id="hamnav">
+          <div class="nav-controls">
+            <button id="themeColorButton" class="icon-wrapper"> 
+              <div id="sunRays" class="sun-rays"></div>
+              <div id="moonOrSun" class="moon-or-sun"></div>
+              <div id="moonMask" class="moon-mask"></div>
+            </button>
+            <div>
+              <nav id="hamnav" class="change-fill">
     
-        <label for="hamburger" class="menu-toggle">&#9776;</label>
-        <input type="checkbox" id="hamburger" class="menu-toggle"/>
+        <button id="mobileMenuButton"  onclick="toggleMenu()">&#9776;</button>
+        
 </nav>    
 
 
-        </div>
+            </div>
+          </div>
       </div>
     </div>
-  </div>
-</Section>
-<section>
+  </Section>
+</div>
+<div>
+  <p id="ptest"></p>
   <ul id="hamitems">
     
     <li><a href="/article/">Articles</a></li>
@@ -393,12 +394,14 @@
     
     <li><a href="/project/">Projects</a></li>
     
-</ul>
+  </ul>
+</div>
 
+<p>put something</p>
 
-
-</section>
   
+  <script src="/js/toggleMenu.js"></script>
+
   
   <script src="/js/toggleLogos.js"></script>
   
