@@ -1,0 +1,24 @@
+baseURL = "https://alexstouffer.github.io/"
+languageCode = "en-us"
+title = "Alex Stouffer-DeBord"
+
+# Novela settings
+theme = "hugo-theme-novela-master"
+
+# Internal Nav
+sectionPagesMenu = "mainmenu"
+
+DefaultContentLanguage = "en"
+paginate = 6
+publishDir = "docs"
+
+[social]
+github= "https://github.com/alexstouffer"
+linkedin= "https://www.linkedin.com/in/alex-stouffer-ab747131/"
+# dribbble = "#"
+youtube = "https://www.youtube.com/user/Fictionshow/videos"
+
+[taxonomies]
+author = "authors"
+tag = "tags"
+category = "categories"
