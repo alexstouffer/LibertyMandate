@@ -1,6 +1,6 @@
-baseURL = "https://alexstouffer.github.io/"
+baseURL = "https://alexstouffer.github.io/libertymandate/"
 languageCode = "en-us"
-title = "Alex Stouffer-DeBord"
+title = "Liberty Mandate"
 
 # Novela settings
 theme = "hugo-theme-novela-master"
