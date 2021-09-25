@@ -218,6 +218,11 @@ nav li {
         li {
             display: flex;
             flex-direction: column;
+            margin-bottom: 5%;
+            border-bottom: 2px solid var(--primary);
+        }
+        li:last-child {
+            margin-bottom: -10%
         }
     }
 
@@ -277,6 +282,7 @@ nav li {
 .header-container {
     display: flex;
     flex-direction: row;
+    margin-bottom: -7%;
 }
 
 /*DESKTOP MEDIUM*/
