@@ -211,6 +211,14 @@ nav li {
     #mobileMenuButton {
         display: inline;
         color: var(--primary);
+        font-size: 2.5rem;
+    }
+
+    .mobile-menu {
+        li {
+            display: flex;
+            flex-direction: column;
+        }
     }
 
     .main-menu { display: none }

@@ -1,5 +1,5 @@
 const mobileMenuButton = document.getElementById('mobileMenuButton');
-const mobileMenuList = document.getElementById('hamitems');
+const mobileMenuList = document.getElementById('mobileMenu');
 const ptest = document.getAnimations('ptest');
 
 function toggleMenu() {

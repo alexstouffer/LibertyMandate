@@ -1,8 +1,7 @@
-<div>
-  <p id="ptest"></p>
-  <ul id="hamitems">
+<nav id="mobileMenu" class="mobile-menu hidden">
+  <ul>
     {{ range .Site.Menus.mainmenu }}
     <li><a href="{{ .URL }}">{{ .Name }}</a></li>
     {{ end }}
   </ul>
-</div>
+</nav>
