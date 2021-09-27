@@ -31,6 +31,7 @@
     .footer-container{
         padding-bottom: 50px;
     }
+ 
 }
 
 .footer-hr{
@@ -100,6 +101,7 @@
     }
 }
 
+
 /*DESKTOP MEDIUM*/
 @media screen and (max-width: 1280px){
     .back-arrow-ico-container{
@@ -123,7 +125,7 @@
             justify-content: space-between;
     align-items: center;
     width: 95%;
-    padding-top: 3%;
+    padding: 5% 0;
 }
 
 #mobileMenuButton {
@@ -198,8 +200,6 @@ nav li {
     text-decoration: none;
     text-align: center;
   }
-
-
   
   /* [ON SMALL SCREENS] */
   @media screen and (max-width: 900px){
@@ -213,16 +213,23 @@ nav li {
         color: var(--primary);
         font-size: 2.5rem;
     }
-
+    
+    
     .mobile-menu {
+        ul {
+            padding-left: 0;
+        }
         li {
             display: flex;
             flex-direction: column;
             margin-bottom: 5%;
             border-bottom: 2px solid var(--primary);
         }
+        li:first-child {
+            margin-top: -7%;
+        }
         li:last-child {
-            margin-bottom: -10%
+            margin-bottom: -5%
         }
     }
 
@@ -282,7 +289,7 @@ nav li {
 .header-container {
     display: flex;
     flex-direction: row;
-    margin-bottom: -7%;
+    margin-bottom: -1%;
 }
 
 /*DESKTOP MEDIUM*/
