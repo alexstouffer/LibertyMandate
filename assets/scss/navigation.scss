@@ -112,11 +112,10 @@
 .menu-container {
     display: flex;
     justify-content: space-between;
+    color: var(--primary);
 }
 
 .nav-container{
-    position: relative;
-    z-index: 100;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -126,7 +125,16 @@
     align-items: center;
     width: 95%;
     padding: 5% 0;
-}
+    @media screen and (max-width: 1280px){
+        padding-top: 5vh;
+    }
+    @media screen and (max-width: $tablet){
+        padding-top: 2.5vh;
+    }    
+    @media screen and (max-width: $phone){
+        padding-top: 0vh;
+    }
+}    
 
 #mobileMenuButton {
     display: none;
@@ -149,7 +157,7 @@ nav li {
 }
 
 .header-menu a {
-    color: #73737D;
+    color: var(--primary);
 }
 
 .header-menu a:hover {
@@ -166,7 +174,11 @@ nav li {
   .brand-info {
     width: 97%;
     padding-left: 3%;
-    height: 20rem;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: $tablet) {
+    }
   }
 
   .mobile-options-container {
@@ -203,10 +215,6 @@ nav li {
   
   /* [ON SMALL SCREENS] */
   @media screen and (max-width: 900px){
-    .nav-container {
-        padding-bottom: 80px; 
-        z-index: 5; 
-    }
 
     #mobileMenuButton {
         display: inline;
@@ -289,15 +297,9 @@ nav li {
 .header-container {
     display: flex;
     flex-direction: row;
-    margin-bottom: -1%;
 }
 
 /*DESKTOP MEDIUM*/
-@media screen and (max-width: 1280px){
-    .nav-container{
-        padding-top: 5%;
-    }
-}
 
 .logo-link{
     position: relative;

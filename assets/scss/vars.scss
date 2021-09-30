@@ -17,13 +17,13 @@ body{
     --color-mode-transition: background 0.25s var(--ease-in-out-quad), color 0.25s var(--ease-in-out-quad);
 
     /*PRIMARY COLORS*/
-    --primary: #070d22;
+    --primary: #fff;
     --secondary: #73737D;
     --grey: #73737D;
-    --background-color: rgb(233, 207, 173);
-    --accent: #a3652b;
+    --background-color: #0a153b;
+    --accent: #b40000;
     --hover: rgba(0, 0, 0, 0.07);
-    --gradient: linear-gradient(180deg, rgba(217, 219, 224, 0) 0%, #D9DBE0 100%);
+    --gradient: linear-gradient(180deg, #0a153b 0%, #b911113d 100%);
     --articleText: #08080B;
     --track: rgba(8, 8, 11, 0.3);
     --progress: #000;
