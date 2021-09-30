@@ -124,16 +124,7 @@
             justify-content: space-between;
     align-items: center;
     width: 95%;
-    padding: 5% 0;
-    @media screen and (max-width: 1280px){
-        padding-top: 5vh;
-    }
-    @media screen and (max-width: $tablet){
-        padding-top: 2.5vh;
-    }    
-    @media screen and (max-width: $phone){
-        padding-top: 0vh;
-    }
+    flex-direction: row;
 }    
 
 #mobileMenuButton {
@@ -174,7 +165,6 @@ nav li {
   .brand-info {
     width: 97%;
     padding-left: 3%;
-    height: 15vh;
     display: flex;
     align-items: center;
     @media screen and (max-width: $tablet) {
@@ -297,6 +287,7 @@ nav li {
 .header-container {
     display: flex;
     flex-direction: row;
+    min-height: 125px;
 }
 
 /*DESKTOP MEDIUM*/

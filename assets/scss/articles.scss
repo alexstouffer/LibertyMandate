@@ -42,16 +42,12 @@
     }
 }
 
-.heading-container{
+.hero-container{
     background-image: url('../images/USA-sunset.svg');
     background-attachment:fixed;
     background-position: top;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-repeat: repeat-x;
     height: 100vh;
-    img {
-      height: 100vh;
-    }
 }
 
 .hero-heading{
