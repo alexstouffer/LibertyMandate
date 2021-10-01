@@ -214,6 +214,15 @@ nav li {
     
     
     .mobile-menu {
+
+        @keyframes animatetop{
+            from{top:-300px;opacity:0} 
+            to{top:0;opacity:1}
+        }
+
+        position:relative;
+        animation:animatetop 0.4s;
+
         ul {
             padding-left: 0;
         }
@@ -287,7 +296,7 @@ nav li {
 .header-container {
     display: flex;
     flex-direction: row;
-    min-height: 125px;
+    min-height: 130px;
 }
 
 /*DESKTOP MEDIUM*/
