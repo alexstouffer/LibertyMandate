@@ -45,9 +45,9 @@
 .hero-container{
     background-image: url('../images/USA-sunset.svg');
     background-attachment:fixed;
-    background-position: top;
-    background-repeat: repeat-x;
-    height: 100vh;
+    background-size: cover;
+    background-position-x: 25%;
+    height: 90vh;
 }
 
 .hero-heading{
