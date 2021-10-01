@@ -48,6 +48,8 @@
     background-size: cover;
     background-position-x: 25%;
     height: 87%;
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
 }
 
 .hero-heading{
