@@ -12,6 +12,27 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+
+   <style>
+         #g2402 {
+         animation: burst 4s linear 0s infinite;
+      }
+
+      @keyframes burst {
+         from {
+            transform: translateX(-200%);
+            transform: translateY(-200%);
+
+         }
+         to {
+            transform: translateX(200%);
+            transform: translateY(200%);
+         }
+      }
+
+  
+   </style>
+
   <sodipodi:namedview
      id="namedview13"
      pagecolor="#ffffff"
