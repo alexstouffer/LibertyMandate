@@ -15,7 +15,7 @@
   <style
      id="style2718">
       #g2402 {
-         animation: burst 15s linear 0s infinite;
+         animation: burst 10s linear 0s infinite;
       }
 
       @keyframes burst {
@@ -32,7 +32,7 @@
       }
 
       #lens_flare {
-         animation: updown 45s ease 0s infinite;
+         animation: updown 20s ease 0s infinite;
       }
 
       @keyframes updown {
@@ -48,7 +48,7 @@
       }
 
       #sun {
-         animation: downup 45s ease 0s infinite;
+         animation: downup 20s ease 0s infinite;
       }
 
       @keyframes downup {
