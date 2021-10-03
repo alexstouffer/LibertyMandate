@@ -15,18 +15,19 @@
 
    <style>
          #g2402 {
-         animation: burst 4s linear 0s infinite;
+         animation: burst 15s linear 0s infinite;
       }
 
       @keyframes burst {
          from {
-            transform: translateX(-200%);
-            transform: translateY(-200%);
+            transform: translateX(200%);
+            transform: translateY(-300%);
 
          }
          to {
-            transform: translateX(200%);
+            transform: translateX(-200%);
             transform: translateY(200%);
+            opacity: 0;
          }
       }
 
