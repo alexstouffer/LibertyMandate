@@ -46,7 +46,7 @@
                     -webkit-text-stroke-color: black; 
                     font-weight: 900; font-family: Arial, Helvetica, sans-serif; 
                     text-align: center;
-                    width: 75%;
+                    width: 90%;
                 }
             
                 button {
@@ -62,28 +62,47 @@
             
             }        
         
-            .hero-feature {
+            .hero-feature-container {
                 display: flex; 
                 flex-direction: column;
                 padding-right: 10%;
-            
-                img {
-                    max-height: 65vh; 
-                    margin-bottom: 10px;
+
+                .carousel-container {
+                    width: 267px;
+                    height: 400px;
+                    position: relative;
+
+                    img {
+                        position: absolute;
+                        top: 0px;
+                        left: 0px;
+                        width: 100%;
+                        height: 100%;
+                        margin-bottom: 10px;
+                    }   
                 }
+                // animation to cycle posters on hero
+                // .carousel-container img {
+                //     opacity: 0;
+                //     animation: cycleImages 8s linear;
+                // }
+
+                // @keyframes cycleImages {
+                //     0% {opacity: 0;}
+                //     10% {opacity: 1;}
+                //     25% {opacity: 1;}
+                //     50%, 100% {opacity: 0;}
+                // }
             }
             // .overlay-container
             @media screen and (max-width: $tablet) {   
                 flex-direction: column-reverse;
-                .hero-feature {
+                .hero-feature-container {
                     padding-right: 0;
                     padding-top:10%;
                 }
-                .hero-feature img {
+                .carousel-container img {
                     max-height: 350px;
-                }
-                .call-to-action h1 {
-                    max-lines: 2;
                 }
             }
         }
@@ -91,7 +110,7 @@
     }
     @media screen and (max-height: 950px) and (max-width: $tablet) {
         height: 700px;
-        .hero-feature {
+        .hero-feature-container {
             padding-top: 10%;
         }
         .call-to-action {
@@ -101,14 +120,14 @@
     }
     @media screen and (max-height: 750px) and (max-width:$phablet) {
         align-items: top;
-        .hero-feature {
+        .hero-feature-container {
             padding-top: 0;
         }
         .call-to-action {
             margin-top: -1%;
             padding-bottom: 0;
         }
-        .hero-feature img {
+        .hero-feature-container img {
             height: 500px;
         }
     }    
