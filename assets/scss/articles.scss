@@ -42,29 +42,6 @@
     }
 }
 
-.hero-container{
-    background-image: url('../images/USA-sunset2.svg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position-x: 25%;
-    height: 87%;
-    -webkit-transition: -webkit-transform 0.4s;
-    transition: transform 0.4s;
-}
-
-.hero-heading{
-    font-style: normal;
-    font-weight: 600;
-    font-family: var(--sanserif);
-    line-height: 1.15;
-    color: var(--primary);
-    margin: 0;
-  
-    /*PHABLET*/
-    @media screen and (max-width: $phablet){
-      font-size: 2rem;
-    }
-}
 
 .grid-button{
     position: relative;
