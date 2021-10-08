@@ -1,22 +1,9 @@
-<div class="hero-bg">
-    <div class="hero-overlay">
-        <div class="overlay-container">
-            <div class="call-to-action">
-                <h1>If it's your business to mind, then it's still your decision who to serve.</h1>
-                <button>Buy Posters</button>
-            </div>
-            <div class="hero-feature-container">
-                <div class="carousel-container">
-                    <img style="--order: 1;" src="images/LMP-LadyGadsen.png">
-                    <img style="--order: 2;" src="images/LMP-LadyGreenback.png">
-                    <img style="--order: 3;" src="images/LMP-BlueFlame.png">
-                </div>
-            </div>  
-        </div>
-    </div>
-</div>
 <Section class="section" relative id="Articles__Hero">
+    <div class="heading-container">
+        <h1 class="hero-heading">{{ .Page.Params.hero.heading }}</h1>
+    </div>
     <div class="subheading-container">
+        {{ partial "bio.html" . }}
         <div class="grid-controls-container">
             <button id="btnGrid" class="grid-button">
                 {{ partial "icons/ui/tiles.html" . }}
@@ -27,10 +14,6 @@
         </div>
     </div>
 </Section>
-
-{{ $script := resources.Get "js/heroCarousel.js" }}
-<script src="{{ $script.RelPermalink }}"></script>
-
 
 {{ $script := resources.Get "js/toggleLayout.js" }}
 <script src="{{ $script.RelPermalink }}"></script>

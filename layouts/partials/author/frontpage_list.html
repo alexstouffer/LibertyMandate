@@ -2,7 +2,7 @@
 <section class="section narrow">
   <section class="section nartrow ">
     <div id="articlesList" class="articles-list-container show-details">
-      {{ $author := site.GetPage "authors/alex-stouffer" }}
+      {{ $author := site.GetPage "authors/liberty-mandate" }}
       {{ $biggerFirst := true }}
       {{ $biggerPlaced := false }}
       {{ range $index, $element := sort $author.Pages.ByDate.Reverse }}

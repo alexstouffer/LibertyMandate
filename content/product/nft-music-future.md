@@ -3,8 +3,7 @@ title: "Non-Fungible Tokens (NFTs) and Crypto's Future For the Music Industry"
 date: 2021-03-16T00:38:50-07:00
 hero: ../../images/btc-franklin.jpg
 draft: false
-authors:
-    - Alex Stouffer
+
 ---
 
 One of the biggest critiques I've encountered from bearish investors like Peter Schiff regarding Bitcoin and Cryptocurrencies as a whole is that it's intangible. The internet itself is intangible in the same sense, yet everyone uses it without thinking of the hardware, network layers, and other protocols that facilitate everything we do online. No one calls it a fad anymore, but they used to as well. Blockchain technology will progress in a similar fashion, and Non-Fungible Tokens (NFTs) are a new value proposition that ties the tech to a swath of new real-world use cases, and music industry is only one facet of this upcoming economic boom. First, let me explain what an NFT is.
