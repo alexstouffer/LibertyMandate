@@ -64,10 +64,15 @@
         
             .hero-feature-container {
                 display: flex; 
-                flex-direction: column;
+                flex-direction: row;
+                align-items: center;
                 padding-right: 10%;
 
                 .carousel-container {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;;
+                    margin: 0 10px;
                     width: 267px;
                     height: 400px;
                     position: relative;
@@ -79,20 +84,12 @@
                         width: 100%;
                         height: 100%;
                         margin-bottom: 10px;
-                    }   
+                    }
+                    
+                    .dotList {
+                        margin-top: 400px;
+                    }
                 }
-                // animation to cycle posters on hero
-                // .carousel-container img {
-                //     opacity: 0;
-                //     animation: cycleImages 8s linear;
-                // }
-
-                // @keyframes cycleImages {
-                //     0% {opacity: 0;}
-                //     10% {opacity: 1;}
-                //     25% {opacity: 1;}
-                //     50%, 100% {opacity: 0;}
-                // }
             }
             // .overlay-container
             @media screen and (max-width: $tablet) {   
@@ -109,9 +106,6 @@
         
     }
     @media screen and (max-height: 950px) and (max-width: $tablet) {
-        .hero-feature-container {
-            padding-top: 10%;
-        }
         .call-to-action {
             margin-top: -3%;
             padding-bottom: 10%;

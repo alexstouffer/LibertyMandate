@@ -2,35 +2,23 @@
     <div class="hero-overlay">
         <div class="overlay-container">
             <div class="call-to-action">
-                <h1>If it's your business to mind, then it's still your decision who to serve.</h1>
-                <button>Buy Posters</button>
+                <h1>History is repeating. Will you allow your rights to be resigned?</h1>
+                <button>Buy a Sign</button>
             </div>
             <div class="hero-feature-container">
+                
                 <div class="carousel-container">
-                    <img style="--order: 1;" src="images/LMP-LadyGadsen.png">
-                    <img style="--order: 2;" src="images/LMP-LadyGreenback.png">
-                    <img style="--order: 3;" src="images/LMP-BlueFlame.png">
+                    <img class="carousel-image" src="images/LMP-BlueFlame.png">
+                    <img class="carousel-image" src="images/LMP-LadyGreenback.png">
+                    <img class="carousel-image" src="images/LMP-LadyGadsen.png">
                 </div>
+
             </div>  
         </div>
     </div>
 </div>
-<Section class="section" relative id="Articles__Hero">
-    <div class="subheading-container">
-        <div class="grid-controls-container">
-            <button id="btnGrid" class="grid-button">
-                {{ partial "icons/ui/tiles.html" . }}
-            </button>
-            <button id="btnRows" class="grid-button">
-                {{ partial "icons/ui/rows.html" . }}
-            </button>
-        </div>
-    </div>
-</Section>
+
+<script src="https://use.fontawesome.com/2f5189959d.js"></script>
 
 {{ $script := resources.Get "js/heroCarousel.js" }}
-<script src="{{ $script.RelPermalink }}"></script>
-
-
-{{ $script := resources.Get "js/toggleLayout.js" }}
 <script src="{{ $script.RelPermalink }}"></script>
