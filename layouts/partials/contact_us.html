@@ -24,18 +24,30 @@
       data-callback="onContctUsSubmit" data-badge="inline" onclick="submitForm()" >Submit</button>
 </form>
 <script>
-    function submitForm(s){
-        var form = document.querySelector("form#contact-us-form");
-        var formData = JSON.stringify(form.serializeArray());
-        var url = form.action;
-        $.ajax({
-            type: "POST",
-            url: document.querySelector("form#contact-us-form"),
-            data: formData,
-            success: function(){},
-            dataType: "json",
-            contentType : "application/json"
-        });
+    let tag = "form#contact-us-form";
+    let uriu = "https://tts0npyxgc.execute-api.us-west-1.amazonaws.com/prod/save";
+    document.querySelector(tag).onsubmit = async (e) => {
+        e.preventDefault();
+        try {
+            const contactForm = e.target;
+            const formData = {};
+            for (var i = 0; i < contactForm.length-1; i++){
+                if(contactForm[i].value) formData[contactForm[i].name] = contactForm[i].value
+            }
+            // const myform = new FormData(e.target);
+            let data = JSON.stringify(formData);
+            console.log(data);
+            const response = await fetch(uriu, {
+                method: "POST",
+                body: data,
+            });
 
-    }
+            if (!response.ok) {
+                return Promise.reject(response);
+            }
+            return await response.json();
+        } catch (error) {
+            console.log(error);
+        }
+    };
 </script>
