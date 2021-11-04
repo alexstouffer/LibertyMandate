@@ -1,0 +1,14 @@
+  ContactUs:
+    Type: AWS::Serverless::Application
+    Properties:
+      Location:
+        ApplicationId: arn:aws:serverlessrepo:us-east-1:132093761664:applications/Contact-Us
+        SemanticVersion: 1.1.0
+      Parameters: 
+        # Your Google reCAPTCHA secret
+        ReCaptchaSecret: 6LcwmuocAAAAAF2yPzF4FGYRKnAJT8D_cQUwB8YU
+        # Contact us email subject
+        Subject: SIGNUP for LibertyMandate
+        # Email address you want contact form submittions to go to
+        ToEmailAddress: mark@thefullertonian.com
+      

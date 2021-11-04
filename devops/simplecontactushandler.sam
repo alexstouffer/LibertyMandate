@@ -1,0 +1,8 @@
+  simplecontactushandler:
+    Type: AWS::Serverless::Application
+    Properties:
+      Location:
+        ApplicationId: arn:aws:serverlessrepo:us-east-1:318300609668:applications/simple-contact-us-handler
+        SemanticVersion: 1.0.0
+        
+      
