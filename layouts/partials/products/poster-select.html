@@ -1,0 +1,86 @@
+<h1>Buy A Poster</h1>
+
+<section class="poster-container">
+    <form id="poster-form">
+        <div style="margin-bottom: 20px;">
+            <h3 style="margin:20px 0;">Select Type:</h3>
+            <label for='blueflame'>
+                <input type='radio' id='blueflame' name='color-select' value='blueflame' required>
+                Blue Flame
+            </label><br>
+            <label for='ladygreenback'>
+                <input type='radio' id='ladygreenback' name='color-select' value='ladygreenback' required>
+                Lady Greenback
+            </label><br>
+            <label for='ladygadsen'>
+                <input type='radio' id='ladygadsen' name='color-select' value='ladygadsen' required>
+                Lady Gadsen
+            </label><br>
+        </div>  
+    </form>
+
+    <a
+    id="add-to-order"
+    submit
+    href="#"
+    class="clayer-add-to-bag"
+    data-sku-name="Select Type"
+    data-sku-code="Select Type"
+    data-sku-reference="Select Type"
+    data-sku-image-url="Select Type"
+    >Add to Cart</a>
+
+</div>
+
+<div id="clayer-shopping-bag-container">
+    <table class="table is-fullwidth">
+      <thead>
+        <tr>
+          <th colspan="2">SKU</th>
+          <th>Reference</th>
+          <th>Unit price</th>
+          <th>Qty</th>
+          <th>Total</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="clayer-shopping-bag-items-container">
+      </tbody> 
+      <template id="clayer-shopping-bag-item-template">
+        <tr>
+          <td>
+            <img class="clayer-shopping-bag-item-image"></img>
+          </td>
+          <td class="clayer-shopping-bag-item-name"></td>
+          <td class="clayer-shopping-bag-item-reference"></td>
+          <td class="clayer-shopping-bag-item-unit-amount"></td>
+          <td class="clayer-shopping-bag-item-qty-container">
+            <!-- The unavailable message template is appended to the element
+                  below if customer selects a quantity that is not available  -->
+            <span class="clayer-shopping-bag-item-availability-message-container"></span>
+          </td>
+          <td class="clayer-shopping-bag-item-total-amount"></td>
+          <td>
+            <a href="#" class="clayer-shopping-bag-item-remove">remove</a>
+          </td>
+        </tr>
+      </template>
+    </table>
+
+    <table class="table is-fullwidth">
+      <tr>
+        <td>Subtotal</td>
+        <td class="clayer-shopping-bag-subtotal"></td>
+      </tr>
+      <tr>
+        <td>Shipping</td>
+        <td class="clayer-shopping-bag-shipping"></td>
+      </tr>
+      <tr>
+        <td>Total</td>
+        <td class="clayer-shopping-bag-total"></td>
+      </tr>
+    </table>
+  </div>
+
+</section>

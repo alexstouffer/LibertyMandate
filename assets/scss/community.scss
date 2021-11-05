@@ -48,3 +48,38 @@
 .frontpage-section img {
     max-width: 200px;
 }
+
+.newsletter-btn {
+    background-color: var(--dark-background);
+    color: var(--dark-primary);
+    font-family: inherit;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    width: 200px;
+    text-transform: uppercase;
+}
+
+.form-group {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+
+    label {
+        width: 150px;
+        text-align: left;
+        font-weight: 800;
+    }
+    input {
+        width: 350px;
+    }
+
+}
+
+.thanks {
+    padding-top: 30px;
+    display: hidden;
+}
