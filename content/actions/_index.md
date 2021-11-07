@@ -37,5 +37,25 @@ Many people recognize that the government actions are not just about healthcare 
   
 ## States Suing Against Vaccine Mandates
 
+* [11 states file suit against Biden COVID vaccine rule for private businesses](https://www.cbsnews.com/news/biden-covid-vaccine-mandate-states-lawsuit-businesses/)
+  * "Missouri was joined in the lawsuit by the Republican attorneys general of Alaska, Arizona, Arkansas, Montana, Nebraska, New Hampshire, North Dakota, South Dakota and Wyoming. The office of Iowa Attorney General Tom Miller, a Democrat, also joined in the suit, along with several private, nonprofit and religious employers."
+* [GOP state officials push back on employer vaccine mandate](https://apnews.com/article/covid-states-suing-employer-vaccine-mandates-f4300ed015ed716a1054949cf199a25a)
+* [Here are the states suing the Biden administration over the employer vaccine mandate](https://www.kcra.com/article/here-are-the-states-suing-the-biden-administration-over-the-federal-vaccine-mandate/38175130)
 
+![](2021-11-07-12-01-40.png)
 
+## Public Protests and Declarations
+
+{{< tweet user="TheMarieOakes" id="1456993889571725313" >}}
+
+{{< tweet user="aginnt" id="1444715717283106816" >}}
+
+{{< tweet user="AnonymeCitoyen" id="1444000725890183170" >}}
+
+https://twitter.com/BGOnTheScene/status/1445060388949725196
+
+https://twitter.com/aginnt/status/1445096319199158275
+
+https://twitter.com/M58193735/status/1445507988463124495
+
+https://twitter.com/Networkinvegas/status/1432184834802139140
