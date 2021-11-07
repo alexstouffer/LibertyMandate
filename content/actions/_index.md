@@ -46,11 +46,11 @@ Many people recognize that the government actions are not just about healthcare 
 
 ## Public Protests and Declarations
 
-{{< tweet user="TheMarieOakes" id="1456993889571725313" >}}
+{{< tweet 1456993889571725313 >}}
 
-{{< tweet user="aginnt" id="1444715717283106816" >}}
+{{< tweet 1444715717283106816 >}}
 
-{{< tweet user="AnonymeCitoyen" id="1444000725890183170" >}}
+{{< tweet 1444000725890183170 >}}
 
 https://twitter.com/BGOnTheScene/status/1445060388949725196
 
