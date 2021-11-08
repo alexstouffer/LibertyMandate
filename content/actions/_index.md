@@ -59,3 +59,7 @@ https://twitter.com/aginnt/status/1445096319199158275
 https://twitter.com/M58193735/status/1445507988463124495
 
 https://twitter.com/Networkinvegas/status/1432184834802139140
+
+https://twitter.com/beingrealmac/status/1457260429911134211?s=20
+
+https://twitter.com/realJamesKlug/status/1457774813938798600?s=20
