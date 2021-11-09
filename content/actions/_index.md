@@ -63,3 +63,7 @@ https://twitter.com/Networkinvegas/status/1432184834802139140
 https://twitter.com/beingrealmac/status/1457260429911134211?s=20
 
 https://twitter.com/realJamesKlug/status/1457774813938798600?s=20
+
+https://twitter.com/disclosetv/status/1458105333902192641?s=20
+
+https://twitter.com/ElectionWiz/status/1458048305674473479?s=20
